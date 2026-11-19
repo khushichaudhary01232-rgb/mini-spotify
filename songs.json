@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Song One",   "artist": "Artist A", "file": "/songs/song1.mp3", "cover": "https://picsum.photos/seed/s1/200" },
+  { "id": 2, "title": "Song Two",   "artist": "Artist B", "file": "/songs/song2.mp3", "cover": "https://picsum.photos/seed/s2/200" },
+  { "id": 3, "title": "Song Three", "artist": "Artist C", "file": "/songs/song3.mp3", "cover": "https://picsum.photos/seed/s3/200" }
+]

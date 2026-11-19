@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Spotify</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>🎵 Mini Spotify</h2>
+    <button id="homeBtn" class="active">Home</button>
+    <button id="likedBtn">Liked Songs</button>
+  </aside>
+
+  <main>
+    <input id="search" type="text" placeholder="Search songs or artists..." />
+    <h3 id="heading">All Songs</h3>
+    <div id="songList" class="grid"></div>
+  </main>
+
+  <footer class="player">
+    <div class="now">
+      <img id="pCover" src="" alt="" />
+      <div><b id="pTitle">Nothing playing</b><br /><small id="pArtist"></small></div>
+    </div>
+    <div class="controls">
+      <button id="prev">⏮</button>
+      <button id="play">▶</button>
+      <button id="next">⏭</button>
+      <input id="seek" type="range" value="0" min="0" max="100" />
+    </div>
+    <input id="volume" type="range" min="0" max="1" step="0.01" value="1" />
+  </footer>
+
+  <audio id="audio"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
